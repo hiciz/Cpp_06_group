@@ -11,7 +11,21 @@
 <summary>헤더 파일</summary>
 <div markdown="1">
 
->> Circle.cpp
+>> Circle.h
+,,,
+#ifndef CIRCLE_H
+#define CIRCLE_H
+
+#include "Shape.h"
+
+class Circle : public Shape {
+protected:
+    virtual void draw();
+};
+
+#endif // CIRCLE_H
+#pragma once
+,,,
 
 </div>
 </details>
