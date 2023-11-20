@@ -12,6 +12,25 @@
 
 <div markdown="1">
 
+```
+#ifndef CIRCLE_H
+#define CIRCLE_H
+
+#include "Shape.h"
+
+class Circle : public Shape {
+protected:
+    virtual void draw();
+};
+
+#endif // CIRCLE_H
+#pragma once
+
+```
+
+
+
+
 </div>
 </details>
 
