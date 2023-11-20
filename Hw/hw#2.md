@@ -13,6 +13,7 @@
 <div markdown="1">
 
 ```
+// Circle.h
 #ifndef CIRCLE_H
 #define CIRCLE_H
 
@@ -27,8 +28,43 @@ protected:
 #pragma once
 
 ```
+```
+//Shape.h
+#ifndef SHAPE_H
+#define SHAPE_H
 
+class Shape {
+    Shape* next;
 
+protected:
+    virtual void draw() = 0;
+
+public:
+    Shape();
+    virtual ~Shape();
+    Shape* add(Shape* p);
+    void paint();
+    Shape* getNext();
+};
+
+#endif // SHAPE_H
+```
+```
+// Rectangle.h
+#ifndef RECTANGLE_H
+#define RECTANGLE_H
+
+#include "Shape.h"
+
+class Rectangle : public Shape {
+protected:
+    virtual void draw();
+};
+
+#endif // RECTANGLE_H
+#pragma once
+
+```
 
 
 </div>
