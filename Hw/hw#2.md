@@ -12,23 +12,6 @@
 
 <div markdown="1">
 
-``` c++
-// Circle.h
-#ifndef CIRCLE_H
-#define CIRCLE_H
-
-#include "Shape.h"
-
-class Circle : public Shape {
-protected:
-    virtual void draw();
-};
-
-#endif // CIRCLE_H
-#pragma once
-
-```
-
 ```c++
 //Shape.h
 #ifndef SHAPE_H
@@ -49,6 +32,23 @@ public:
 };
 
 #endif // SHAPE_H
+```
+
+``` c++
+// Circle.h
+#ifndef CIRCLE_H
+#define CIRCLE_H
+
+#include "Shape.h"
+
+class Circle : public Shape {
+protected:
+    virtual void draw();
+};
+
+#endif // CIRCLE_H
+#pragma once
+
 ```
 
 ```c++
