@@ -1,14 +1,6 @@
-#### 객체지향프로그래밍 과제 7조 - 변유빈, 유시연 
+### 객체지향프로그래밍 과제 7조 - 변유빈, 유시연 
 
-
-
-
-
-### 실행 결과 이미지 
-
-<img width="863" alt="image" src="https://user-images.githubusercontent.com/138213248/284153357-fc37ac41-c595-46ae-9405-d536529b42c1.png">
-
-
+##### 문제: 간단한 그래픽 편집기를 콘솔 바탕으로 만들어보자. 그래픽 편집기의 기능은 "삽입", "삭제", "모두보기", "종료" 의 4가지이고, 실행 과정은 다음과 같다.
 
 
 ### 소스코드
@@ -345,3 +337,11 @@ int main() {
 
 </div>
 </details>
+
+
+
+
+### 실행 결과 이미지 
+
+<img width="863" alt="image" src="https://user-images.githubusercontent.com/138213248/284153357-fc37ac41-c595-46ae-9405-d536529b42c1.png">
+
