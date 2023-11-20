@@ -66,6 +66,63 @@ protected:
 
 ```
 
+```
+//Line.h
+#ifndef LINE_H
+#define LINE_H
+
+#include "Shape.h"
+
+class Line : public Shape {
+protected:
+    virtual void draw();
+};
+
+#endif // LINE_H
+#pragma once
+
+```
+```
+//UI.h
+#ifndef UI_H
+#define UI_H
+
+class UI {
+public:
+    static int getMenu();
+    static int getShapeTypeToInsert();
+    static int getShapeIndexToDelete();
+};
+
+#endif // UI_H
+#pragma once
+
+```
+
+```
+//GraphicEditor.h
+#ifndef GRAPHICEDITOR_H
+#define GRAPHICEDITOR_H
+
+#include "Shape.h"
+
+class GraphicEditor {
+    Shape* pStart;
+    Shape* pLast;
+
+public:
+    GraphicEditor();
+    void insertItem(int type);
+    void deleteItem(int index);
+    void show();
+    void run();
+};
+
+#endif // GRAPHICEDITOR_H
+#pragma once
+
+```
+
 
 </div>
 </details>
