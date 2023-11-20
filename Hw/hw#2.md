@@ -6,7 +6,7 @@
 
 
 
->헤더 파일
+### 소스코드
 <details>
 <summary>헤더 파일</summary>
 
@@ -16,9 +16,8 @@
 </details>
 
 
->cpp 파일
 <details>
-<summary>헤더 파일</summary>
+<summary>cpp 파일</summary>
 
 <div markdown="1">
 
