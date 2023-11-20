@@ -12,7 +12,7 @@
 
 <div markdown="1">
 
-```
+``` c++
 // Circle.h
 #ifndef CIRCLE_H
 #define CIRCLE_H
@@ -28,7 +28,8 @@ protected:
 #pragma once
 
 ```
-```
+
+```c++
 //Shape.h
 #ifndef SHAPE_H
 #define SHAPE_H
@@ -49,7 +50,8 @@ public:
 
 #endif // SHAPE_H
 ```
-```
+
+```c++
 // Rectangle.h
 #ifndef RECTANGLE_H
 #define RECTANGLE_H
@@ -66,7 +68,7 @@ protected:
 
 ```
 
-```
+```c++
 //Line.h
 #ifndef LINE_H
 #define LINE_H
@@ -82,7 +84,8 @@ protected:
 #pragma once
 
 ```
-```
+
+```c++
 //UI.h
 #ifndef UI_H
 #define UI_H
@@ -99,7 +102,7 @@ public:
 
 ```
 
-```
+```c++
 //GraphicEditor.h
 #ifndef GRAPHICEDITOR_H
 #define GRAPHICEDITOR_H
