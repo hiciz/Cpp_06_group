@@ -186,5 +186,5 @@ int main() {
 
 ### 실행 결과 이미지 
 
-<img width="863" alt="image" src="https://github.com/hiciz/Cpp_07_group/assets/138213248/c80dba72-d099-453b-b60c-4d3a0cfb390d.png">
+<img width="863" alt="image" src="https://github.com/hiciz/Cpp_07_group/assets/138213248/693b2964-2e66-4eca-919f-95a0d5f9c955.png">
 
